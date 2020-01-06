@@ -16,9 +16,13 @@ import './App.css';
    .then(newRecipe => {console.log('app - newRecipe' , newRecipe)
       let strMeal = newRecipe.meals[0].strMeal
       let strInstructions = newRecipe.meals[0].strInstructions
+      let strIngredient = newRecipe.meals[0].strIngredient
       this.setState({strMeal})
       this.setState({strInstructions})
+      this.setState({strIngredient})
+
       })
+      
  }
 
  componentDidMount () {
