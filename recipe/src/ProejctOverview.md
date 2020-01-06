@@ -3,19 +3,20 @@
 
 ## Project Description
 
-For project 2, I will be creating a recipe app that houses recipes from TheMealDB.com API. There will be a homepage showing images and a title of what the recipe is, when a user clicks on the 'make' button, it will take them to another page listing out the ingredients and instructions. 
+For project 2, I will be creating a recipe app that houses recipes from TheMealDB.com API. There will be a homepage showing images and a title of what the recipe is. When a user clicks on the 'make' button, it will take them to another page listing out the ingredients and instructions. 
 
 ## Project Links
 
-- [https://ngumina17.github.io/project2]()
+- [Recipes](https://ngumina17.github.io/project2)
 - [deployment]()
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
-- [https://res.cloudinary.com/drz8x4anh/image/upload/v1578321445/IMG_3054_muawaj.heic   [https://res.cloudinary.com/drz8x4anh/image/upload/v1578321453/IMG_3055_qdfkbz.heic] ()
-- [https://res.cloudinary.com/drz8x4anh/image/upload/v1578320554/Screen_Shot_2020-01-06_at_8.20.47_AM_yvnrme.png]()
+- ![Architecture] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578320554/Screen_Shot_2020-01-06_at_8.20.47_AM_yvnrme.png)
+- ![Wire-Frame-1] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333614/Screen_Shot_2020-01-06_at_11.59.16_AM_urf8ux.png)
+- ![Wire-Frame-2] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333798/Screen_Shot_2020-01-06_at_12.03.03_PM_g9yc7n.png)
 
 
 
@@ -33,7 +34,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP EXAMPLE
 
-- Add localStorage or firebase for storage
+- Add additional pages option in the footer to show the remaining recipes contained in API 
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -43,8 +44,9 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| Home Page | This will render the images for all of the recipes  | 
+| Results | Fetch call will take place here, and will render the breadcrumbs, search bar, and the 'make' button. | 
+
 
 ## Time Frames
 
@@ -52,11 +54,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
+| Project Overview/ Description | H | 2.5hrs | 1.5hrs | Xhrs|
 | Search Bar | H | 3hrs| Xhrs | Xhrs |
-| CSS/ layout | H | 3hrs | Xhrs | X hrs|
-| Working with API | H | 6hrs| Xhrs | Xhrs |
+| CSS grid/ layout | H | 3hrs | Xhrs | X hrs|
+| Working with API | H | 10hrs| Xhrs | Xhrs |
+| Render Ingredients | H | 4hrs| Xhrs | Xhrs |
+| Render Images | H | 2hrs| X hrs | Xhrs|
+| Implement Scroll past (post MVP) | L | 3hrs | Xhrs| Xhrs|
 | React Router | H | 6hrs | Xhrs | X hrs|
-| Total | H | 18hrs| Xhrs | Xhrs |
+| Total | H | 31hrs| Xhrs | Xhrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 

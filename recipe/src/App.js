@@ -14,11 +14,11 @@ import './App.css';
    fetch ('https://www.themealdb.com/api/json/v1/1/search.php?s')
    .then(res => res.json())
    .then(newRecipe => {console.log('app - newRecipe' , newRecipe)
-   let strMeal = newRecipe.strMeal
-   let strInstructions = newRecipe.strInstructions
-   this.setState({strMeal})
-   this.setState({strInstructions})
-  })
+      let strMeal = newRecipe.meals[0].strMeal
+      let strInstructions = newRecipe.meals[0].strInstructions
+      this.setState({strMeal})
+      this.setState({strInstructions})
+      })
  }
 
  componentDidMount () {
