@@ -20,7 +20,7 @@ import Home from './Home';
       // let strMeal = newRecipe.meals[0].strMeal
       // let strInstructions = newRecipe.meals[0].strInstructions
       // let strIngredient = newRecipe.meals[0].strIngredient
-      let meal = this.props.meals
+      let meal = this.state.meals
       let mealsArr = Object.keys(meal)
       let ingredientsArr = []
       for (let i=0; i< mealsArr.length; i++) {

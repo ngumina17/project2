@@ -47,6 +47,10 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | App | This will make the initial data pull and include React Router| 
 | Home Page | This will render the images for all of the recipes  | 
 | Results | Fetch call will take place here, and will render the breadcrumbs, search bar, and the 'make' button. | 
+| Make button| this button will take users to the recipe description. It will include ingredients and instructions |
+| Search Bar | Users can search for recipes with a keyword |
+| Breadcrumbs| This will show the path of the pages |
+
 
 
 ## Time Frames
