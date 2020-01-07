@@ -63,7 +63,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Render Images | H | 2hrs| Xhrs | Xhrs|
 | Implement Scroll past (post MVP) | L | 3hrs | Xhrs| Xhrs|
 | React Router | H | 6hrs | Xhrs | X hrs|
-| Total | H | 34hrs| 6hrs | Xhrs |
+| Total | H | 34hrs| 11.5hrs | Xhrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
