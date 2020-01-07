@@ -1,68 +1,90 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Overview
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+For project 2, I will be creating a recipe app that houses recipes from TheMealDB.com API. There will be a homepage showing images and a title of what the recipe is. When a user clicks on the 'make' button, it will take them to another page listing out the ingredients and instructions. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Links
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Recipes](https://ngumina17.github.io/project2)
+- [deployment]()
 
-### `npm test`
+## Wireframes
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
-### `npm run build`
+- ![Architecture] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578411369/Screen_Shot_2020-01-07_at_9.35.40_AM_wyglrn.png)
+- ![Wire-Frame-1] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333614/Screen_Shot_2020-01-06_at_11.59.16_AM_urf8ux.png)
+- ![Wire-Frame-2] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333798/Screen_Shot_2020-01-06_at_12.03.03_PM_g9yc7n.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Define the the React components and the architectural design of your app.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### MVP/PostMVP - 5min
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### MVP EXAMPLE
+- Find and use external recipe api 
+- Render data (recipes) on page 
+- User can click on images to take them to the recipe they wish to make
+- User can search for a recipe using keywords
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### PostMVP EXAMPLE
 
-## Learn More
+- Add additional pages option in the footer to show the remaining recipes contained in API 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Components
+##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
-### Code Splitting
+| Component | Description | 
+| --- | :---: |  
+| App | This will make the initial data pull and include React Router| 
+| Home Page | This will render the images for all of the recipes  | 
+| Results | Fetch call will take place here, and will render the breadcrumbs, search bar, and the 'make' button. | 
+| Make button| this button will take users to the recipe description. It will include ingredients and instructions |
+| Search Bar | Users can search for recipes with a keyword |
+| Breadcrumbs| This will show the path of the pages |
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Time Frames
 
-### Making a Progressive Web App
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Project Overview/ Description | H | 2.5hrs | 1.5hrs | 1.5hrs|
+| Search Bar | H | 3hrs| Xhrs | Xhrs |
+| CSS grid/ layout | H | 3hrs | Xhrs | X hrs|
+| Working with API | H | 12hrs| 3hrs | Xhrs |
+| Render Ingredients | H | 5hrs| 7hrs | Xhrs |
+| Render Images | H | 2hrs| Xhrs | Xhrs|
+| Implement Scroll past (post MVP) | L | 3hrs | Xhrs| Xhrs|
+| React Router | H | 6hrs | Xhrs | X hrs|
+| Total | H | 34hrs| 11.5hrs | Xhrs |
 
-### Advanced Configuration
+## Additional Libraries
+ Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Code Snippet
 
-### Deployment
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
 
-### `npm run build` fails to minify
+## Issues and Resolutions
+ Use this section to list of all major issues encountered and their resolution.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
