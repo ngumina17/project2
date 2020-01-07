@@ -14,9 +14,10 @@ For project 2, I will be creating a recipe app that houses recipes from TheMealD
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
-- ![Architecture] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578320554/Screen_Shot_2020-01-06_at_8.20.47_AM_yvnrme.png)
+- ![Architecture] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578411369/Screen_Shot_2020-01-07_at_9.35.40_AM_wyglrn.png)
 - ![Wire-Frame-1] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333614/Screen_Shot_2020-01-06_at_11.59.16_AM_urf8ux.png)
 - ![Wire-Frame-2] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333798/Screen_Shot_2020-01-06_at_12.03.03_PM_g9yc7n.png)
+
 
 
 
@@ -54,15 +55,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Overview/ Description | H | 2.5hrs | 1.5hrs | Xhrs|
+| Project Overview/ Description | H | 2.5hrs | 1.5hrs | 1.5hrs|
 | Search Bar | H | 3hrs| Xhrs | Xhrs |
 | CSS grid/ layout | H | 3hrs | Xhrs | X hrs|
-| Working with API | H | 10hrs| Xhrs | Xhrs |
-| Render Ingredients | H | 4hrs| Xhrs | Xhrs |
-| Render Images | H | 2hrs| X hrs | Xhrs|
+| Working with API | H | 12hrs| 3hrs | Xhrs |
+| Render Ingredients | H | 5hrs| 7hrs | Xhrs |
+| Render Images | H | 2hrs| Xhrs | Xhrs|
 | Implement Scroll past (post MVP) | L | 3hrs | Xhrs| Xhrs|
 | React Router | H | 6hrs | Xhrs | X hrs|
-| Total | H | 31hrs| Xhrs | Xhrs |
+| Total | H | 34hrs| 6hrs | Xhrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
