@@ -14,9 +14,9 @@ For project 2, I will be creating a recipe app that houses recipes from TheMealD
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
-- ![Architecture] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578411369/Screen_Shot_2020-01-07_at_9.35.40_AM_wyglrn.png)
-- ![Wire-Frame-1] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333614/Screen_Shot_2020-01-06_at_11.59.16_AM_urf8ux.png)
-- ![Wire-Frame-2] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333798/Screen_Shot_2020-01-06_at_12.03.03_PM_g9yc7n.png)
+- ![Architecture](https://res.cloudinary.com/drz8x4anh/image/upload/v1578411369/Screen_Shot_2020-01-07_at_9.35.40_AM_wyglrn.png)
+- ![Wire-Frame-1](https://res.cloudinary.com/drz8x4anh/image/upload/v1578333614/Screen_Shot_2020-01-06_at_11.59.16_AM_urf8ux.png)
+- ![Wire-Frame-2](https://res.cloudinary.com/drz8x4anh/image/upload/v1578333798/Screen_Shot_2020-01-06_at_12.03.03_PM_g9yc7n.png)
 
 
 
