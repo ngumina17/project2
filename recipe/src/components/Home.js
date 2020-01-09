@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import axios from "axios";
 import Header from './Header';
 import RecipeContainer from "./recipeContainer";
-import { Link, Route, Switch } from 'react-router-dom';
+import {Route, Switch } from 'react-router-dom';
+
 
 
 class Home extends Component {
@@ -29,10 +30,11 @@ class Home extends Component {
       render() {
         var data = this.state.meal;
         return (
+    
           <div className="App">
-            <Header />
             {data.length > 0 && <RecipeContainer meals={data} />}
           </div>
+   
         );
       }
     }

@@ -9,29 +9,29 @@ import RecipeContainer from "./components/recipeContainer";
 import { Link, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <main>
+      <>
         <Header />
-        <Link to="../Home">Recipes</Link>
-        <div className="homeText">
-          <p>Welcome to Food Therapy.</p>
-          <br></br>
-          <p>
-            Please click the 'Recipes' link above to take you to a list of
-            delicious recipes!
-          </p>
+        <Switch>
+          <Route exact path='/'>
+        <div className = 'appText'>  
+            <p>Welcome to Food Therapy</p>
+            <br></br>
+            <p>Please click the 'Recipes' link below to take you to a list of delicious recipes!</p>
+            <nav>
+              <Link to='/recipes'>Recipes</Link>
+            </nav>
         </div>
-        <switch></switch>
-        <Route exact path="/" component={App} />
-        <Route
-          path="../Home"
-          render={routerProps => <Home {...this.state} {...routerProps} />}
-        />
-      </main>
-    );
-  }
+        </Route>
+        <Route exact path="/recipes" component={Home} />
+        </Switch>
+      </>
+       
+    )
 }
+}
+
 
 export default App;
 
