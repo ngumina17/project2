@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from "axios";
-import RecipeContainer from "./components/recipeContainer";
+import Header from './Header';
+import RecipeContainer from "./recipeContainer";
 import { Link, Route, Switch } from 'react-router-dom';
 
 
@@ -35,7 +36,7 @@ class Home extends Component {
         );
       }
     }
-}
+
 
 
 
