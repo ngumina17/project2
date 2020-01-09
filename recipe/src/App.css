@@ -1,1 +1,37 @@
+@font-face {
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
+    src: local('Sacramento'), local('Sacramento'),
+        url("https://fonts.googleapis.com/css?family=Sacramento&display=swap")
+}
+.rHeader {
+    font-family: 'Sacramento', cursive;
+    background-color: #D5CFe1;
+    height: 80px;
+    padding: 30px;
+    color: #464655;
+    margin-bottom: 2rem;
+    text-align: left;
+}
 
+
+.homeText {
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+}
+
+.search {
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
+    background-color: #D5CFe1;
+    /* text-align: right; */
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    max-width: 350px;
+}
