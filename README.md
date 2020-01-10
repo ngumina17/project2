@@ -8,7 +8,7 @@ For project 2, I will be creating a recipe app that houses recipes from TheMealD
 ## Project Links
 
 - [Recipes](https://ngumina17.github.io/project2)
-- [deployment]()
+- [deployment](https://elegant-hamilton-283035.netlify.com)
 
 ## Wireframes
 
