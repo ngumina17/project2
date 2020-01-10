@@ -24,9 +24,6 @@ class Home extends Component {
               this.setState({ meal });
             }
           })
-          .catch(error => {
-            console.log(error);
-          });
       }
       render() {
         var data = this.state.meal;

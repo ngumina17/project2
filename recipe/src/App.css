@@ -69,7 +69,11 @@
 }
 
 .rFooter {
-    position: absolute;
     bottom: 0;
     text-align: center;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    font-family: 'Sacramento', cursive;
 }
