@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../App.css';
 import axios from "axios";
 import Header from './Header';
 import RecipeContainer from "./recipeContainer";
@@ -30,7 +31,6 @@ class Home extends Component {
       render() {
         var data = this.state.meal;
         return (
-    
           <div className="App">
             {data.length > 0 && <RecipeContainer meals={data} />}
           </div>
@@ -38,6 +38,8 @@ class Home extends Component {
         );
       }
     }
+
+
 
 
 

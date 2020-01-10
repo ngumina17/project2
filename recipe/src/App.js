@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-// import Form from './components/Form;
+import Footer from './components/Footer';
 import Header from "./components/Header";
 import Home from './components/Home';
 import axios from "axios";
 import RecipeContainer from "./components/recipeContainer";
-// import Nav from './components/Nav';
 import { Link, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -26,6 +25,7 @@ class App extends Component {
         </Route>
         <Route exact path="/recipes" component={Home} />
         </Switch>
+       <Footer /> 
       </>
        
     )
