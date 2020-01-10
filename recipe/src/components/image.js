@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import'../App.css'
-import './Image.css'
+// import './Image.css'
+import './recipeContainer.css'
 
 class Image extends Component {
   render() {
