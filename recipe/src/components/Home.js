@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import axios from "axios";
 import Header from './Header';
-import RecipeContainer from "./recipeContainer";
+import RecipeContainer from "./RecipeContainer";
 import {Route, Switch } from 'react-router-dom';
 
 

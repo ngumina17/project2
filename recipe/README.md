@@ -3,7 +3,7 @@
 
 ## Project Description
 
-For project 2, I will be creating a recipe app that houses recipes from TheMealDB.com API. There will be a homepage showing images and a title of what the recipe is. When a user clicks on the 'make' button, it will take them to another page listing out the ingredients and instructions. 
+For project 2, I will be creating a recipe app that houses recipes from TheMealDB.com API. When the user first opens the site, they will see a page that gives a brief description of the site. There will be a link that will then take them to the listing of recipes gathered from the API. Each recipe will also have a link that takes them to the website of origin.  
 
 ## Project Links
 
@@ -14,77 +14,71 @@ For project 2, I will be creating a recipe app that houses recipes from TheMealD
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
-- ![Architecture] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578411369/Screen_Shot_2020-01-07_at_9.35.40_AM_wyglrn.png)
-- ![Wire-Frame-1] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333614/Screen_Shot_2020-01-06_at_11.59.16_AM_urf8ux.png)
-- ![Wire-Frame-2] (https://res.cloudinary.com/drz8x4anh/image/upload/v1578333798/Screen_Shot_2020-01-06_at_12.03.03_PM_g9yc7n.png)
+- ![Architecture](https://res.cloudinary.com/drz8x4anh/image/upload/v1578664899/Screen_Shot_2020-01-10_at_8.01.04_AM_qpzflw.png)
+- ![Wire-Frame-1](https://res.cloudinary.com/drz8x4anh/image/upload/v1578333614/Screen_Shot_2020-01-06_at_11.59.16_AM_urf8ux.png)
 
 
-
-
-Define the the React components and the architectural design of your app.
-
-### MVP/PostMVP - 5min
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+### MVP/PostMVP
+ 
 
 #### MVP EXAMPLE
-- Find and use external recipe api 
-- Render data (recipes) on page 
-- User can click on images to take them to the recipe they wish to make
-- User can search for a recipe using keywords
+- Find and use external recipe API 
+- Render data (recipes) on Recipes page
+- Use react router to go from home page to list of recipes
+- User can click on a link to take them to the website they wish to make
+
 
 #### PostMVP EXAMPLE
 
-- Add additional pages option in the footer to show the remaining recipes contained in API 
+- Add additional pages option in the footer to show the remaining recipes contained in API (pagenation).
+- User can search for a recipe using keywords.
+- When a user clicks on a recipe, instead of being taken to a website, they will be taken to another react component (using react-router) that lists the instructions, ingredients, and measurements.
+- Breadcrumbs will render at the top of the page.
+- Find a themed API (if available), i.e. just use French food and apply French themes to the site.
+- Implement/ include tests.
 
-## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
+## Components 
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Home Page | This will render the images for all of the recipes  | 
-| Results | Fetch call will take place here, and will render the breadcrumbs, search bar, and the 'make' button. | 
-| Make button| this button will take users to the recipe description. It will include ingredients and instructions |
-| Search Bar | Users can search for recipes with a keyword |
-| Breadcrumbs| This will show the path of the pages |
-
+| App | App will render the header, footer, and a basic description of the site. | 
+| Home | Fetch call will take place here, and this component will render the images and link for all of the recipes. | 
+| Header | The name of the site "Food Therapy" will be held here. | 
+| recipeContainer | Entirety of the meal image and link. |
+| Image | Image from API data. |
+| mealTitle | Title of meal from API data |
+| Footer | Name and year are included |
 
 
 ## Time Frames
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
-
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Overview/ Description | H | 2.5hrs | 1.5hrs | 1.5hrs|
-| Search Bar | H | 3hrs| Xhrs | Xhrs |
-| CSS grid/ layout | H | 3hrs | Xhrs | X hrs|
-| Working with API | H | 12hrs| 3hrs | Xhrs |
-| Render Ingredients | H | 5hrs| 7hrs | Xhrs |
-| Render Images | H | 2hrs| Xhrs | Xhrs|
-| Implement Scroll past (post MVP) | L | 3hrs | Xhrs| Xhrs|
-| React Router | H | 6hrs | Xhrs | X hrs|
-| Total | H | 34hrs| 11.5hrs | Xhrs |
+| Project Overview/ Description | H | 2.5hrs | 1.5hrs | 3hrs|
+| CSS Styling | M | 3hrs | 7hrs | 7hrs|
+| Working with API | H | 12hrs| 10hrs | 10-12hrs |
+| Render Images | H | 4hrs| 3hrs | 6hrs|
+| React Router | H | 6hrs | 6hrs | 6hrs|
+| All PostMVP components | L | 15hrs | 0hrs| 0hrs|
+| Total | H | 42.5hrs| 27.5hrs | 33hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ I discovered axios for this project to gather the API data! See code snippet below.
 
 ## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
+Axios was a new discovery for me during this project, I saw it in almost every youtube tutorial/blogpost/web page, etc.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+componentDidMount() {
+        const url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
+        axios
+          .get(url)
+          .then(res => {
+            const meal = res.data.meals;
+            if (typeof meal === "object") {
+              this.setState({ meal });
+            }
+          })
 ```
+Credit for above: https://www.youtube.com/watch?v=M-X0Jw2e68A
 
-## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
-
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object

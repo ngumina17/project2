@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import mealTitle from "./mealTitle";
+import MealTitle from "./MealTitle";
 import Image from "./Image";
-import '../App.css'
+import './recipeContainer.css'
 
 class RecipeContainer extends Component {
   render() {
@@ -10,8 +10,8 @@ class RecipeContainer extends Component {
         {this.props.meals.map((item, index) => {
           return (
             <a className='recipeCard' key={index} href={item.strSource}>
-              <Image source={item.strMealThumb} text={item.strMeal} />
-              <mealTitle title={item.strMeal} />
+              <Image className='recipeImage' source={item.strMealThumb} text={item.strMeal} />
+              <MealTitle title={item.strMeal} />
             </a>
           );
         })}

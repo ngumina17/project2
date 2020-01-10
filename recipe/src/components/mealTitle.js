@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import '../App.css'
 
-class mealTitle extends Component {
+class MealTitle extends Component {
   render() {
     return <h2 className = 'Title'>{this.props.title}</h2>;
   }
 }
 
-export default mealTitle;
+export default MealTitle;

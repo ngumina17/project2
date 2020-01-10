@@ -14,18 +14,12 @@ For project 2, I will be creating a recipe app that houses recipes from TheMealD
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
-- ![Architecture](https://res.cloudinary.com/drz8x4anh/image/upload/v1578411369/Screen_Shot_2020-01-07_at_9.35.40_AM_wyglrn.png)
+- ![Architecture](https://res.cloudinary.com/drz8x4anh/image/upload/v1578664899/Screen_Shot_2020-01-10_at_8.01.04_AM_qpzflw.png)
 - ![Wire-Frame-1](https://res.cloudinary.com/drz8x4anh/image/upload/v1578333614/Screen_Shot_2020-01-06_at_11.59.16_AM_urf8ux.png)
-- ![Wire-Frame-2](https://res.cloudinary.com/drz8x4anh/image/upload/v1578333798/Screen_Shot_2020-01-06_at_12.03.03_PM_g9yc7n.png)
 
 
-
-
-Define the the React components and the architectural design of your app.
-
-### MVP/PostMVP - 5min
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+### MVP/PostMVP
+ 
 
 #### MVP EXAMPLE
 - Find and use external recipe API 
@@ -47,7 +41,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 | Component | Description | 
 | --- | :---: |  
-| App | App will render a basic description of the site. | 
+| App | App will render the header, footer, and a basic description of the site. | 
 | Home | Fetch call will take place here, and this component will render the images and link for all of the recipes. | 
 | Header | The name of the site "Food Therapy" will be held here. | 
 | recipeContainer | Entirety of the meal image and link. |
@@ -63,10 +57,10 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Project Overview/ Description | H | 2.5hrs | 1.5hrs | 3hrs|
 | CSS Styling | M | 3hrs | 7hrs | 7hrs|
 | Working with API | H | 12hrs| 10hrs | 10-12hrs |
-| Render Images | H | 4hrs| 3hrs | 4hrs|
+| Render Images | H | 4hrs| 3hrs | 6hrs|
 | React Router | H | 6hrs | 6hrs | 6hrs|
 | All PostMVP components | L | 15hrs | 0hrs| 0hrs|
-| Total | H | 42.5hrs| 27.5hrs | 31hrs |
+| Total | H | 42.5hrs| 27.5hrs | 33hrs |
 
 ## Additional Libraries
  I discovered axios for this project to gather the API data! See code snippet below.
@@ -86,7 +80,7 @@ componentDidMount() {
             }
           })
 ```
-Credit for above: 
+Credit for above: https://www.youtube.com/watch?v=M-X0Jw2e68A
 
-## Issues and Resolutions
+
 

@@ -1,9 +1,14 @@
 import React, { Component } from "react";
-import'../App.css'
+// import'../App.css'
+import './Image.css'
 
 class Image extends Component {
   render() {
-    return <img src={this.props.source} alt={this.props.text} />;
+    return (
+      <div className = 'picture'>
+    <img src={this.props.source} alt={this.props.text} />;
+    </div>
+    )
   }
 }
 
