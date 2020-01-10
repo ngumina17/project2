@@ -9,6 +9,7 @@ For project 2, I will be creating a recipe app that houses recipes from TheMealD
 
 - [Recipes](https://ngumina17.github.io/project2)
 - [deployment](https://elegant-hamilton-283035.netlify.com)
+- [Youtube](https://youtu.be/OoagIZWBPRA)
 
 ## Wireframes
 
